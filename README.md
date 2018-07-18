@@ -35,4 +35,14 @@ To use the mongo shell client:
 
         $ docker exec -ti mongo mongo
         
-        
+
+## Create user
+
+use admin()
+
+db.createUser(
+   {
+       user: "maaguilar",
+       pwd: "maaguilar",
+       roles:["root"]
+   })
