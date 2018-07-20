@@ -6,19 +6,12 @@ import javax.validation.constraints.Size;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import lombok.Builder;
-import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
-import lombok.experimental.Accessors;
-
-@Data
-@Getter
-@Setter
-@Builder
-@ToString
-@Accessors(fluent = true)
+//@Data
+//@Getter
+//@Setter
+//@Builder
+//@ToString
+//@Accessors(fluent = true)
 @Document(collection = "employees")
 public class Employee {
 	@Id
